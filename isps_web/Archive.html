@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>ארכיון</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="isps_style.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="utils.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div id="icons" class="row">
+            <div class="col">
+                <ul>
+                    <li><a href="mailto:isps.israel@gmail.com"><img src="images/blue-email-box.png" class="mail" /></a></li>
+                    <li><a class="fa fa-facebook" href="https://www.facebook.com/IspsIL/"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row" id="header">
+            <div class="col">
+                <img src="images/isps-il_logo.png" alt="isps_israel" />
+                <h3>האיגוד לקידום גישות פסיכולוגיות וחברתיות לפסיכוזה</h3>
+            </div>
+        </div>
+        <!--menu start-->
+        <div class="row">
+            <div class="col ">
+                <div class="topnav" id="myTopnav">
+                    <a href="isps-il.html">בית</a>
+                    <a href="About.html">מי אנחנו</a>
+                    <a href="Archive.html" class="current">ארכיון</a>
+                    <a href="Experts.html">אנשי מקצוע</a>
+                    <a href="Join.html">הצטרפות</a>
+                    <a href="Groups.html">קבוצות</a>
+                    <a href="Links.html">קישורים</a>
+                    <a href="https://www.myofficeguy.com/p/9ozq1/11u7e4/11u7e5/payment/" target="_blank" id="toGive">לתרומה</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- menu end -->
+        <!-- main page start -->
+        <div class="row">
+            <!-- start left_main -->
+            <div class="col  .d-none .d-sm-block col-md-6 w3-section">
+                <!-- all the pictures in the slide show -->
+                <div class="mySlides w3-animate-fading"><img class="slidepic" src="images/archive/pdf_as_pic/1.png" ;></div>
+                <div class="mySlides w3-animate-fading"><img class="slidepic" src="images/archive/pdf_as_pic/2.png" ;></div>
+                <div class="mySlides w3-animate-fading"><img class="slidepic" src="images/archive/pdf_as_pic/3.png" ;> </div>
+                <div class="mySlides w3-animate-fading"><img class="slidepic" src="images/archive/pdf_as_pic/4.png" ;> </div>
+                <div class="mySlides w3-animate-fading"><img class="slidepic" src="images/archive/pdf_as_pic/5.png" ;> </div>
+                <div class="mySlides w3-animate-fading"><img class="slidepic" src="images/archive/pdf_as_pic/6.png" ;> </div>
+                <div class="mySlides w3-animate-fading"><img class="slidepic" src="images/archive/pdf_as_pic/7.png" ;> </div>
+                <div class="mySlides w3-animate-fading"><img class="slidepic" src="images/archive/pdf_as_pic/8.png" ;> </div>
+                <div class="mySlides w3-animate-fading"><img class="slidepic" src="images/archive/pdf_as_pic/9.png" ;> </div>
+                <div class="mySlides w3-animate-fading"><img class="slidepic" src="images/archive/pdf_as_pic/10.png" ;></div>
+            </div>
+            <script>
+                //for the slide show with fade in and out
+                var myIndex = 0;
+                carousel();
+                function carousel() {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    myIndex++;
+                    if (myIndex > x.length) { myIndex = 1 }
+                    x[myIndex - 1].style.display = "block";
+                    setTimeout(carousel, 9000);
+                }
+            </script>
+            <!-- start center main -->
+            <div class="col col-md-6" id="center_main">
+                <div class="timeline">
+                    <div class="container left">
+                        <div class="content">
+                            <h2>2020</h2>
+                            <p>סדנה ראשונה מסוגה בישראל:<br /> שמיעת קולות ודרכי התמודדות.<br />תנועת שומעי קולות <br />  Hearing Voices Network </p>
+                            <p><a href="PDF_Archive/1.pdf" target="_blank">לחץ כאן</a></p>
+                        </div>
+                    </div>
+                    <div class="container right">
+                        <div class="content">
+                            <h2>2020</h2>
+                            <p> יום עיון של האיגוד לקידום גישות פסיכולוגיות וחברתיות לפסיכוזה  "מדברים פסיכוזה": טיפול בפסיכוזה מנדוקות מבט שונות</p>
+                            <p><a href="PDF_Archive/2.1.pdf" target="_blank">לחץ כאן</a></p>
+                            <p><a href="PDF_Archive/2.2.pdf" target="_blank">לסיכום לחץ קטן</a></p>
+                        </div>
+                    </div>
+                    <div class="container left">
+                        <div class="content">
+                            <h2>2018</h2>
+                            <p>הכינוס הבינלאומי הרביעי של ISPS ישראל <br />פסיכוזה: בין בדידות לקהילה</p>
+                            <p><a href="PDF_Archive/3.pdf" target="_blank">לחץ כאן</a></p>
+                        </div>
+                    </div>
+                    <div class="container right">
+                        <div class="content">
+                            <h2>2018</h2>
+                            <p>נקודת מפגש: יום דיאלוג מתמודדים - מטפלים בעולם בריאות הנפש <br />קמפוס המכללה למנהל ראשון-לציון</p>
+                            <p><a href="PDF_Archive/4.pdf" target="_blank">לחץ כאן</a></p>
+                        </div>
+                    </div>
+                    <div class="container left">
+                        <div class="content">
+                            <h2>2016</h2>
+                            <p>הכינוס הבינלאומי השלישי של ISPS ישראל<br />פסיכוזה,טראומה והחלמה</p>
+                            <p><a href="PDF_Archive/5.pdf" target="_blank">לחץ כאן</a></p>
+                        </div>
+                    </div>
+                    <div class="container right">
+                        <div class="content">
+                            <h2>2015</h2>
+                            <p>ISPS-IL - "ניקול ואני" עם השחקן אמיר בושרי<br />"המחזה מעורר מחשבה לגבי קו התפר בין שפיות לאי-שפיות."(רבקה שרגא,News1)</p>
+                            <p><a href="PDF_Archive/6.pdf" target="_blank">לחץ כאן</a></p>
+                        </div>
+                    </div>
+                    <div class="container left">
+                        <div class="content">
+                            <h2>2015</h2>
+                            <p>פסיכוזה ודיסוציאציה - בחסות איגוד הפסיכיאטריה, בישראל, סניף ירושלים ועמותת סוטריה ישראל</p>
+                            <p><a href="PDF_Archive/7.pdf" target="_blank">לחץ כאן</a></p>
+                        </div>
+                    </div>
+                    <div class="container right">
+                        <div class="content">
+                            <h2>2013</h2>
+                            <p>הכינוס הבינלאומי השני של ISPS ישראל<br />פסיכוזה ופסיכואנליזה: "זמן שיגעון"</p>
+                            <p><a href="PDF_Archive/8.pdf" target="_blank">לחץ כאן</a></p>
+                        </div>
+                    </div>
+                    <div class="container left">
+                        <div class="content">
+                            <h2>2011</h2>
+                            <p>הכינוס הבינלאומי הראשון של ISPS ישראל<br />פסיכוזה ופסיכואנליזה בתרבות המוסדית</p>
+                            <p><a href="PDF_Archive/9.pdf" target="_blank">לחץ כאן</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- footer start -->
+
+        <div class="row">
+            <div class="col" id="footer">
+                <p>
+                    ליצירת קשר
+                    <a href="mailto:isps.israel@gmail.com"><img src="images/blue-email-box.png" /></a>
+                </p>
+                <h5>האתר נבנה ועוצב על ידי אביב שר שלום וליאב כהן</h5>
+            </div>
+        </div>
+
+        <!-- footer end -->
+
+    </div>
+
+
+</body>
+</html>
